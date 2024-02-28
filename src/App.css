@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f3f3f3; /* Light background */
+}
+
+/* Quiz App Container */
+.main-content {
+  background-color: #282c34; /* Darker background for container */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px; /* Add some padding around the container */
+}
+
+/* Main Div */
+.main-div {
+  background-color: #d6c2e2; /* Lighter background for the main content */
+  height: auto; /* Allow height to adjust based on content */
+  width: 800px; /* Responsive width */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Quiz Heading */
+.quiz_app_heading {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #282c34; /* Consistent background */
+  color: white;
+  text-align: center; /* Center align the heading */
+}
+
+/* Question Div */
+.ques-div {
+  padding: 20px; /* Add some padding for spacing */
+  width: 95%; /* Stretch across the content area */
+  text-align: justify; /* Justify text for readability */
+  /* background-color: aqua; */
+}
+
+/* Question Text */
+.question {
+  font-size: 1.2rem;
+  font-weight: bold;
+  /* background-color: blue; */
+  color: #282c34; /* Consistent text color */
+  margin-bottom: 15px; /* Add some space below the question */
+}
+
+/* Option Div */
+.option-div {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-betwe; Distribute options evenly */
+  padding: 10px;
+  border-radius: 5px; /* Subtle rounded corners */
+  background-color: #282c34; /* Consistent background */
+  color: white; /* Consistent text color */
+  font-size: 1rem;
+  margin-bottom: 10px; /* Add space between options */
+}
+
+/* Radio Button */
+.option {
+  cursor: pointer;
+  margin-right: 10px; /* Spacing between radio button and label */
+}
+
+/* Next Button */
+.next-btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #282c34; /* Consistent background */
+  border: none;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer; /* Indicate clickable button */
+}
+
+.next-btn:hover {
+  background-color: #4a5460; /* Darker shade on hover */
+}
+
+/* Result Div */
+.result_div {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Result Heading */
+.result_heading {
+  background-color: #282c34; /* Consistent background */
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* Result Image */
+.fail, .pass {
+  width: 200px; /* Adjust image size */
+  border-radius: 10px;
+  margin: 20px 0; /* Add margin above and below the image */
+}
+
+/* Result Message */
+.failMsg, .passMsg {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.result-btn{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #282c34; /* Consistent background */
+  border: none;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer; /* Indicate clickable button */
+}
+
+.result-btn:hover {
+  background-color: #4a5460; /* Darker shade on hover */
+}
